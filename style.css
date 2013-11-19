@@ -82,6 +82,7 @@ body {
 	height:920px;
 	border: none;
 	-webkit-transform: scale(0.7, 0.7);
+	-ms-transform: scale(0.7, 0.7);
 }
 #Sproj1{
 	width:452px;
