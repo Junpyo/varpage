@@ -145,6 +145,7 @@ function Load(){
 	sprBlast = addImg("img/bloodeffect.png");
 	imgWarn = addImg("img/npc_obstacle_warn.png");
 	imgObstacle = addImg("img/npc_obstacle.png");
+
 	LoadState();
 }
 function LoadState(){
@@ -153,8 +154,6 @@ function LoadState(){
 	Context.font="20px Arial";
 	Context.fillText("Now Loading...", theCanvas.width/2-50, theCanvas.height/2);
 	Context.fillText( Math.floor(countLoaded / totalResource * 100)+"%" , theCanvas.width/2-10, theCanvas.height/2+25);
-	Context.fillStyle = "#93ff00";
-	Context.fillRect(20, theCanvas.height/2+50, 720*Math.floor(countLoaded / totalResource), 5);
 }
 
 function gameInit(){
